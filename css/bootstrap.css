@@ -1,0 +1,59 @@
+.caption{
+    font-size: 1.5vw;
+    color:rgb(184, 180, 180);
+    font-style: italic;
+    font-weight: 200;
+    align-items:center;
+    position:relative;
+
+}
+.title {
+    color: rgb(87, 23, 17);
+    display: block;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: cursive;
+    text-decoration: underline;
+    position:relative;
+  }
+  body {
+    background-color: rgb(79, 101, 113);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+  }
+  .nav {
+    background-color: rgba(38, 61, 130, 0.558);
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: medium;
+    position:relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  .footer {
+    background-color:  rgba(38, 61, 130, 0.558);
+      margin-top: -1rem;
+      margin-bottom: 1rem;
+      color: #6c757d;
+      position:relative;
+      font-size: 1.5vw;
+  }
+  .flex-container{
+      display:flex
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      flex-grow: 50;
+      flex-basis: 50;
+      flex-shrink: 50;
+      position:relative;
+  }
+  h4{
+      color: #3d3f41;
+  }
+  a:visited {
+    color: rgb(252, 159, 174);
+    background-color: transparent;
+    text-decoration: none;
+  }
